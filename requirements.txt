@@ -11,4 +11,3 @@ yfinance
 python-dateutil
 plotly.express
 requests
-date
