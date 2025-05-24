@@ -9,3 +9,6 @@ statsmodels
 ta
 yfinance
 python-dateutil
+plotly.express
+requests
+date
