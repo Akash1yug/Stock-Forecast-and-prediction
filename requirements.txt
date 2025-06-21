@@ -1,7 +1,7 @@
 streamlit
 numpy
 pandas
-pandas-ta
+pandas_ta==0.3.14b
 plotly
 requests
 scikit-learn
@@ -9,43 +9,13 @@ statsmodels
 ta
 yfinance
 python-dateutil
+
 plotly.express
 requests
+date
 
-# Core Data Handling & Analysis
-pandas>=1.3.0
-numpy>=1.21.0
-python-dateutil>=2.8.2 # For dateutil.relativedelta
-datetime>=4.3 # Though datetime is built-in, sometimes a specific package is listed if it's implicitly used
-requests>=2.25.1
+plotly.express
 
-# Financial Data
-yfinance>=0.1.63
-
-# Statistical Modeling
-statsmodels>=0.13.0
-
-# Machine Learning (Preprocessing & Evaluation)
-scikit-learn>=0.24.2 # sklearn is scikit-learn
-
-# Interactive Visualization
-plotly>=5.0.0
-# plotly-express is often included with plotly, but explicitly listing it doesn't hurt if issues arise
-# plotly-express>=0.4.1
-
-# Technical Analysis
-pandas_ta>=0.3.14b0 # As used with pta.sma, pta.rsi, pta.macd
-# ta is also imported, but pandas_ta seems to be the primary one used for indicators.
-# If `ta` is specifically used for something distinct, uncomment and add:
-# ta>=0.10.0
-
-# Web Application Framework
-streamlit>=1.0.0
-
-# For NewsAPI (if specific version is needed, otherwise requests covers it)
-# This is usually covered by 'requests' but if NewsAPI specific client library is used, list it.
-# Based on your code, it's a direct requests call, so no additional specific NewsAPI package needed.
-
-# For caching (handled by streamlit)
-# For the implicit date in datetime for the specific version, this is usually covered by default python.
-
+numpy==1.24.4
+pandas==1.5.3
+pandas-ta==0.3.14b0
